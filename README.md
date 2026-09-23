@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="Heart%20Disease%20Classification.ipynb">View Notebook</a>
+  <a href="notebook/Heart Disease Classification.ipynb">View Notebook</a>
 </p>
 
 ---
