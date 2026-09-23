@@ -1,26 +1,71 @@
-# Heat-Disease_Classification
-# Heart Disease Prediction - Machine Learning Model
+<p align="center">
+  <img src="assets/hero.png" alt="Heart Disease Classification" width="100%">
+</p>
 
-This project implements an end-to-end machine learning model to predict the presence of heart disease based on clinical data. It includes data preprocessing, exploratory data analysis, model training, evaluation, and feature importance.
+<p align="center">
+  <strong>Machine Learning · Clinical Data · Predictive Analytics</strong>
+</p>
 
-## 📂 Files Included
-- `end-to-end-heart-disease-classification.ipynb`: Jupyter Notebook containing the entire workflow.
-- `heart_disease.csv`: Dataset used for training and testing.
-- `requirements.txt`: List of Python libraries required to run the project.
+<p align="center">
+  An end-to-end machine learning project for predicting the presence
+  of heart disease using clinical data.
+</p>
 
-## 📊 Dataset
-The dataset contains patient health metrics like:
-- Age
-- Sex
-- Chest pain type
-- Blood pressure
-- Cholesterol
-- Blood sugar
-- ECG results
-- Heart rate
-- Exercise-induced angina
-- And others...
+<p align="center">
+  <a href="Heart%20Disease%20Classification.ipynb">View Notebook</a>
+</p>
 
-The target variable indicates the presence of heart disease.
+---
 
+## Overview
 
+The **Heart Disease Classification** project applies machine learning
+to clinical data to predict whether a patient is likely to have
+heart disease.
+
+The project follows an end-to-end machine learning workflow covering
+data preprocessing, exploratory data analysis, model development,
+evaluation, and feature importance analysis.
+
+---
+
+## Problem Statement
+
+Given a set of clinical attributes, the objective is to classify
+whether the available patient data indicates the presence of heart
+disease.
+
+This is a **supervised binary classification problem**.
+
+---
+
+## Machine Learning Workflow
+
+```text
+Clinical Dataset
+       │
+       ▼
+Data Inspection
+       │
+       ▼
+Data Preprocessing
+       │
+       ▼
+Exploratory Data Analysis
+       │
+       ▼
+Feature Preparation
+       │
+       ▼
+Machine Learning Models
+       │
+       ├───────────────┐
+       ▼               ▼
+      KNN        Random Forest
+       │               │
+       └───────┬───────┘
+               ▼
+        Model Evaluation
+               │
+               ▼
+       Feature Importance
